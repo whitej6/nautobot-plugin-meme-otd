@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nautobot-plugin-meme-otd"
-version = "0.1.0"
+version = "1.0.0"
 description = "Nautobot Meme Of The Day Plugin"
 authors = ["Jeremy White <jeremy.white@networktocode.com>"]
 license = "Apache-2.0"

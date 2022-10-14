@@ -14,4 +14,4 @@ class MemeOfTheDayView(View):
         if not resp.ok:
             content = {"title": "Unable to retrieve XKCD API data.", "url": False}
         content = {"title": resp.json()["safe_title"], "url": resp.json()["img"]}
-        return render( request, "nautobot_meme_otd/meme-otd.html", content)
+        return render(request, "nautobot_meme_otd/meme-otd.html", content)
